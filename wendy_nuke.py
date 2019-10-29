@@ -13,7 +13,8 @@ import time
 load_dotenv()
 
 #globals
-TOKEN = os.getenv('TOKEN')
+#TOKEN = os.getenv('TOKEN')
+TOKEN = os.environ['TOKEN']
 
 wendys = 0
 MAX = 5
