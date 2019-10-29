@@ -1,1 +1,1 @@
-worker: python3 wendy_nuke.py
+worker: python wendy_nuke.py
