@@ -30,7 +30,7 @@ client = discord.Client();
 async def on_message(message):
     global wendys
     global wendys_left
-    w_slur = re.compile('(?Ui)(w.*e.*n.*d.*y)')
+    w_slur = re.compile('(?i)(?U)(w.*e.*n.*d.*y)')
 
     if message.author == client.user:
         return
